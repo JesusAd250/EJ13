@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cálculos varios</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="container">
+  <div class="header">Cálculos varios</div>
+
+  <input type="number" id="numero" placeholder="Ingrese un número">
+
+  <select id="operacion" onchange="cambiarTextoBoton()">
+    <option value="primo">Es primo</option>
+    <option value="par">Es par</option>
+    <option value="factorial">Factorial (el maximo es 15)</option>
+    <option value="suma_pares">Suma pares (1 a n)</option>
+    <option value="suma_impares">Suma impares (1 a n)</option>
+  </select>
+
+  
+  <p class="resultado" id="resultado">Resultado: </p>
+
+  <button id="btn" onclick="calcular()">Verificar</button>
+</div>
+
+<script src="funcion.js"></script>
+
+</body>
+</html>
