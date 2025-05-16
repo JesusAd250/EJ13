@@ -1,15 +1,8 @@
 {
   "name": "ej13",
   "version": "1.0.0",
-  "description": "Spring Boot with frontend build",
+  "description": "Placeholder for Render deployment",
   "scripts": {
-    "start": "echo 'Frontend resources served by Spring Boot' && exit 0",
-    "build": "vite build && cp -R dist/* src/main/resources/static/",
-    "dev": "vite"
-  },
-  "dependencies": {
-    "vite": "^5.0.0" // Ejemplo, ajusta según tu herramienta
-  },
-  "author": "",
-  "license": "ISC"
+    "start": "echo 'This is a Java project. Use java -jar target/app.jar'"
+  }
 }
