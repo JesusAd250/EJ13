@@ -1,0 +1,9 @@
+{
+  "name": "ej13",
+  "version": "1.0.0",
+  "description": "Spring Boot placeholder for Render",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}
