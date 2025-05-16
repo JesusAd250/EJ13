@@ -1,9 +1,15 @@
 {
   "name": "ej13",
   "version": "1.0.0",
-  "description": "Spring Boot placeholder for Render",
-  "main": "index.js",
-  "scripts": {},
+  "description": "Spring Boot with frontend build",
+  "scripts": {
+    "start": "echo 'Frontend resources served by Spring Boot' && exit 0",
+    "build": "vite build && cp -R dist/* src/main/resources/static/",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "vite": "^5.0.0" // Ejemplo, ajusta según tu herramienta
+  },
   "author": "",
   "license": "ISC"
 }
