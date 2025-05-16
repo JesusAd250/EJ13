@@ -1,9 +1,0 @@
-{
-  "name": "ej13",
-  "version": "1.0.0",
-  "description": "Placeholder for Render deployment",
-  "scripts": {
-    "start": "echo 'This is a Java project. Use java -jar target/app.jar'"
-  },
-  "license": "MIT"
-}
