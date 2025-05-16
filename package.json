@@ -4,5 +4,6 @@
   "description": "Placeholder for Render deployment",
   "scripts": {
     "start": "echo 'This is a Java project. Use java -jar target/app.jar'"
-  }
+  },
+  "license": "MIT"
 }
